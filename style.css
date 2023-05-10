@@ -116,7 +116,7 @@ header.sticky .nav-bar{
     display: none;
 }
 
-
+/*======home section=====*/
 .home{
     display: flex;
     position: relative;
@@ -460,11 +460,17 @@ footer a{
 }
 
 /*========Home section=======*/
+
 .home .home-container .info{
     font-size: 0.85rem;
 }
 
 /*=====About section====*/
+
+.section-title-01{
+    font-size: 3.5em;
+}
+
 .about .container .content{
     display: grid;
     width: 100%;
