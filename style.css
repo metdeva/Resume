@@ -562,9 +562,8 @@ body{
 }
 .home-container .home-img img{
     position: absolute;
-    width: 249px;
-    height: 249px;
-    transform: translate(-38px, -125px);
+    width: 70%;
+    transform: translate(-20px, -110px);
 }
 
 .home .home-container .info{
@@ -573,10 +572,13 @@ body{
     text-align: center;
 }
 
-.media-icons{
+.home-container .media-icons{
     margin-bottom: 80px;
     row-gap: 10px;
-    margin: 0 30px;
+    margin: 0 20px;
 }
+
+.home-container .media-icons a{
+    margin: 6px 0 ;
 
 }
