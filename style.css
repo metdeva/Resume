@@ -572,6 +572,7 @@ body{
     margin: 0 30px;
 }
 
+.home-container .info h2, 
 .home-container .info h3{
     text-align: center;
 }
