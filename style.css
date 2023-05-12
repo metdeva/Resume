@@ -527,6 +527,11 @@ footer .footer-container{
     margin: 10px 0 22px;
 }
 
+.footer-copyright p{
+    font-size: var(--small-font-size);
+    font-weight: 300;
+}
+
 }
 
 /*=============Media query max-width 730px======*/
@@ -557,24 +562,21 @@ body{
 }
 .home-container .home-img img{
     position: absolute;
-    width: 65%;
-    transform: translate(0px, -125px);
+    width: 249px;
+    height: 249px;
+    transform: translate(-38px, -125px);
 }
 
 .home .home-container .info{
     font-size: 0.8rem;
     padding: 20px;
+    text-align: center;
 }
 
 .media-icons{
     margin-bottom: 80px;
     row-gap: 10px;
     margin: 0 30px;
-}
-
-.home-container .info h2, 
-.home-container .info h3{
-    text-align: center;
 }
 
 }
